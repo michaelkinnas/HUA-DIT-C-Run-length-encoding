@@ -1,1 +1,3 @@
-This is a test readme
+Compress.c - It compresses txt files using the run length enconding algorith. It takes 2 command line arguments, 1st the txt source file and 2nd the destination compressed file. If the destination doesn't exit it creates it.
+
+Uncompress.c - It decompresses previously compressed files used with the run length encoding algorithm. It takes 3 arguments. 1st argument is optional, if it's "-e" it offers additional operations to modify the file before uncompressing. 2nd argument is the source compressed file and 3rd argument is the destination text file. If the destination doesn't exist it cretes it.
